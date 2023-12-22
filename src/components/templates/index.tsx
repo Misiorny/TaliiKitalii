@@ -1,6 +1,10 @@
-import { Main } from '@/src/components/templates/Main/Main'
-import { Header } from '@/src/components/templates/Header/Header'
-import { Footer } from '@/src/components/templates/Footer/Footer'
+import { Main } from './Main/Main'
+import { Header } from './Header/Header'
+import { Footer } from './Footer/Footer'
+import { HeaderText } from './Header/HeaderText'
+import { LandingCard } from './Cards/LandingCard'
+import { Cards } from './Cards/Cards'
+import { Card } from './Cards/Card'
 
 
-export {Main,Header,Footer}
+export {Main,Header,Footer, HeaderText, Card, Cards, LandingCard}
