@@ -5,6 +5,7 @@ import { HeaderText } from './Header/HeaderText'
 import { LandingCard } from './Cards/LandingCard'
 import { Cards } from './Cards/Cards'
 import { Card } from './Cards/Card'
+import { Navbar } from './Navbar/Navbar'
 
 
-export {Main,Header,Footer, HeaderText, Card, Cards, LandingCard}
+export {Main,Header,Footer, HeaderText, Card, Cards, LandingCard, Navbar}
