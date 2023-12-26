@@ -1,14 +1,17 @@
-import { ReactNode } from 'react'
 
 interface FooterProps{
   styles?:string,
-  children?:ReactNode
+  text:string
 }
 
-export const Footer=({styles,children}:FooterProps)=>{
+export const Footer=({styles,text}:FooterProps)=>{
   return(
-    <footer className={`max-w-screen-2xl mx-auto w-full m-1 rounded-3xl bg-main-light ${styles}`}>
-      {children}
+    <footer
+      className={`max-w-screen-2xl mx-auto w-full ${styles} z-20 m-2`}
+    >
+      <p className='px-2 py-4 text-center text-main-dark bg-main-light'>
+        {text}
+      </p>
     </footer>
   )
 }

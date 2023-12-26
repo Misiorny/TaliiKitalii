@@ -7,7 +7,7 @@ interface MainProps{
 
 export const Main=({children}:MainProps)=>{
   return(
-    <main className='mx-auto w-full max-w-screen-2xl flex-grow bg-main m-1 rounded-3xl'>
+    <main className="mx-auto w-full max-w-screen-2xl flex-grow z-20 my-2 " >
       {children}
     </main>
   )

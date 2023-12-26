@@ -12,6 +12,7 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'header-pattern':"url('/src/assets/jpg/view/zebra.jpeg')"
       },
     },
     colors: {
@@ -34,6 +35,16 @@ const config: Config = {
         sign: '#CCF1DA',
       },
     },
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.1em',
+      widestxl: '.25em',
+    }
   },
   plugins: [],
 }

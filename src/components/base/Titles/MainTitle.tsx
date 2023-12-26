@@ -7,7 +7,7 @@ interface MainTitleProps {
 export const MainTitle = ({ font, styles, text }: MainTitleProps) => {
   return (
     <h1
-      className={`${font} ${styles} text-4xl font-bold py-2 px-1 text-center text-main-dark`}
+      className={`${font} ${styles} text-4xl font-bold py-2 px-1 text-center text-main-dark tracking-wider `}
     >{text}</h1>
   )
 }
