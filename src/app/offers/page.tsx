@@ -1,6 +1,7 @@
 import {
   Footer, Header, Main, Navbar
 } from '@/src/components/templates'
+import { OffersCards } from '@/src/components/templates/OffersCards/OffersCards'
 
 export default function OffersPage () {
   return (
@@ -9,7 +10,9 @@ export default function OffersPage () {
       <Navbar/>
       <Header />
       <Main>
+        <OffersCards>
         <p> Here I will put offers of possible activities like climbing, safaris, school trips and others </p>
+        </OffersCards>
       </Main>
       <Footer/>
 

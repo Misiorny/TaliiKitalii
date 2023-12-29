@@ -8,7 +8,7 @@ export const LandingCeo=()=>{
         <Picture src="/kevin.jpg" alt="CEO of Talii Kitalii"/>
       </div>
       <div className="">
-        <Paragraph text="Hi, I am Kevin - CEO of Talii Kitalii."/>
+        <Paragraph text="Hi, I am Calvin - CEO of Talii Kitalii."/>
         <Paragraph
           text="Many thanks for contacting Talii Kitalii African safaris, your local adventure travel expert.  "
         />
