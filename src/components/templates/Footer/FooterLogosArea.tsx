@@ -1,0 +1,18 @@
+import { LogoInstagram } from '@/src/components/base/Logo/LogoInstagram'
+import { LogoFacebook }  from '@/src/components/base/Logo/LogoFacebook'
+import { LogoPhone }     from '@/src/components/base/Logo/LogoPhone'
+import { LogoMail }      from '@/src/components/base/Logo/LogoMail'
+import { LogoWhatsApp }  from '@/src/components/base/Logo/LogoWhatsApp'
+export const FooterLogosArea = () => {
+  return (
+    <div className="flex flex-row">
+      <LogoInstagram  href="https://www.instagram.com/talii_kitalii_african_safaris/" text="Instagram" width={24} height={24} color="#000000"/>
+      <LogoFacebook href="https://www.facebook.com/calvin.lema.31" text="Facebook" width={24} height={24} color="#000000"/>
+      <LogoPhone width={24} height={24} color="#000"/>
+      <LogoMail width={24} height={24} color="#000"/>
+      <LogoWhatsApp width={24} height={24} color="#000"/>
+
+    </div>
+  )
+
+}

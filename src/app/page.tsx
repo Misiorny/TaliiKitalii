@@ -8,7 +8,7 @@ export default function LandingPage () {
       <Main>
         <LandingCard/>
       </Main>
-      <Footer text="Footer"/>
+      <Footer/>
 
     </div>
 
