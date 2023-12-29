@@ -10,7 +10,8 @@ export default function SafarisPage () {
       <div
         className="absolute w-full h-full  bg-main-light opacity-60 z-10"
       ></div>
-      <Header><Navbar/></Header>
+      <Navbar/>
+      <Header/>
       <Main>
         <p> Here I will put offers of possible safaris activities depending on time or area
         </p>

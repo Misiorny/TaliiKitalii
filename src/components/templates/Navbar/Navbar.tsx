@@ -3,7 +3,7 @@ import Link                         from 'next/link'
 
 export const Navbar = () => {
   return (
-    <nav className=" uppercase font-bold">
+    <nav className=" uppercase font-bold z-20">
       <UnorderedList>
         <Link href='/climbing/'><ListItem text="climbing"/></Link>
         <Link href='/safaris/'><ListItem text="safaris"/></Link>

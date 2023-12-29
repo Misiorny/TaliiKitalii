@@ -2,12 +2,9 @@ import { Logo, MainText, MainTitle, SubTitle } from '@/src/components/base'
 import { HeaderText }                          from '@/src/components/templates'
 import { ds, raleway }                         from '@/src/app/fonts'
 import Link                                    from 'next/link'
-import { ReactNode }                           from 'react'
 
-interface HeaderProps{
-  children:ReactNode
-}
-export const Header = ({children}:HeaderProps) => {
+
+export const Header = () => {
 
   return (
     <header
@@ -25,7 +22,7 @@ export const Header = ({children}:HeaderProps) => {
         />
         <MainText text="To travel is to life"/>
       </HeaderText>
-      {children}
+
     </header>
   )
 }
