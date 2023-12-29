@@ -1,5 +1,5 @@
 import {
-  Footer, Header, LandingCard, Main, Navbar
+  Footer, Header, Main, Navbar
 } from '@/src/components/templates'
 
 export default function SchoolsPage () {
@@ -12,7 +12,8 @@ export default function SchoolsPage () {
       ></div>
       <Header><Navbar/></Header>
       <Main>
-        <LandingCard/>
+        <p> Here I will put offers for schools
+        </p>
       </Main>
       <Footer/>
     </div>

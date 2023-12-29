@@ -5,7 +5,7 @@ interface UnorderedListProps{
 }
 export const UnorderedList=({children}:UnorderedListProps)=>{
   return(
-    <ul>
+    <ul className="flex flex-row ">
       {children}
     </ul>
   )

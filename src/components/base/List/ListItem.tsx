@@ -4,7 +4,7 @@ interface ListItemProps{
 
 export const ListItem=({text}:ListItemProps)=>{
   return(
-    <li>
+    <li className="py-2 px-1">
       {text}
     </li>
   )

@@ -11,7 +11,7 @@ export const Header = ({children}:HeaderProps) => {
 
   return (
     <header
-      className={`mx-auto flex w-full  max-w-screen-2xl justify-center sm:flex-row sm:justify-evenly rounded-3xl m-2 relative  z-20`}
+      className={`mx-auto flex flex-col w-full  max-w-screen-2xl justify-center sm:flex-row sm:justify-evenly rounded-3xl m-2 relative  z-20`}
     >
       <Link href="/">
         <Logo/>

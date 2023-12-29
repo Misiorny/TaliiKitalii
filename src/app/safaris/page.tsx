@@ -1,5 +1,5 @@
 import {
-  Footer, Header, LandingCard, Main, Navbar
+  Footer, Header, Main, Navbar
 } from '@/src/components/templates'
 
 export default function SafarisPage () {
@@ -12,7 +12,8 @@ export default function SafarisPage () {
       ></div>
       <Header><Navbar/></Header>
       <Main>
-        <LandingCard/>
+        <p> Here I will put offers of possible safaris activities depending on time or area
+        </p>
       </Main>
       <Footer/>
     </div>

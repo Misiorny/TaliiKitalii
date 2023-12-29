@@ -1,5 +1,5 @@
 import {
-  Footer, Header, LandingCard, Main, Navbar
+  Footer, Header, Main, Navbar
 } from '@/src/components/templates'
 
 export default function ClimbingPage () {
@@ -10,10 +10,11 @@ export default function ClimbingPage () {
       <Navbar/>
       </Header>
       <Main>
-        <LandingCard/>
+        <p> Here I will put offers of possible Kilimanjaro climbing divided by routes or time,
+
+        </p>
       </Main>
       <Footer/>
-
     </div>
 
   )
