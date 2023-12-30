@@ -5,7 +5,7 @@ export const LandingCeo=()=>{
   return (
     <section className=" landing_ceo grid grid-cols-2">
       <div className="w-full">
-        <Picture src="/kevin.jpg" alt="CEO of Talii Kitalii"/>
+        <Picture width={200} height={340} src="/kevin.jpg" alt="CEO of Talii Kitalii"/>
       </div>
       <div className="">
         <Paragraph text="Hi, I am Calvin - CEO of Talii Kitalii."/>

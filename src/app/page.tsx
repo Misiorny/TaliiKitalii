@@ -1,5 +1,5 @@
 import {
-  Footer, Header, LandingCard, Main, Navbar
+  Footer, Header, LandingCard, Main
 } from '@/src/components/templates'
 
 export default function LandingPage () {
@@ -10,7 +10,6 @@ export default function LandingPage () {
       <div
         className="absolute w-full h-full  bg-main-light opacity-60 z-10"
       ></div>
-      <Navbar/>
       <Header/>
       <Main>
         <LandingCard/>

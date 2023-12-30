@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { raleway }       from '@/src/app/fonts'
+import { bodoni}       from '@/src/app/fonts'
 import React             from 'react'
 import './globals.css'
 
@@ -14,7 +14,7 @@ export default function RootLayout ({
 }) {
   return (
     <html lang="en"  >
-      <body className={raleway.className}>
+      <body className={bodoni.className}>
         {children}
       </body>
     </html>
