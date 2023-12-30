@@ -6,8 +6,8 @@ export const SafariCards=()=>{
   return(
     <section>
       <Cards title="Safaris Activities">
-        <Card src={simba} width={400} height={600} alt="Pick of Kilimanjaro" title="Kilimanjaro climbing" text="We offer Kilimanjaro climbing by three routes. Lemosho, Machame and Marangu route. Each of them are different and your choice is depend on your possibilities and expectation." />
-        <Card src={elephants} width={400} height={600} alt="Pick of Mount Meru" title="Mount Meru climbing" text="We offer Mount Meru climbing as aclimatisation for Kilimanjaro climb or like other kind of activities. "/>
+        <Card src={simba} width={400} height={600} alt="Pick of Kilimanjaro" title="Safari in National Park" text="We offer Safaris in National Park like Serengeti, Arusha NP, Ngorongoro Conservation Area. We offer from 1 to 5 days safari in east-north part of Tanzania. " />
+        <Card src={elephants} width={400} height={600} alt="Pick of Mount Meru" title="Cultural activities" text="For all tourists who want to see some kind of african culture we can show Hadzabe Tribe village and Masai village.     "/>
       </Cards>
     </section>
   )

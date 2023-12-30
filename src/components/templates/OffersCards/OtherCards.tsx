@@ -6,8 +6,8 @@ export const OtherCards=()=>{
   return(
     <section>
       <Cards title="Other Activities">
-        <Card src={giraffs} width={400} height={600} alt="Pick of Kilimanjaro" title="Chemka Hot Springs" text="We offer Kilimanjaro climbing by three routes. Lemosho, Machame and Marangu route. Each of them are different and your choice is depend on your possibilities and expectation." />
-        <Card src={giraff} width={400} height={600} alt="Pick of Mount Meru" title="Arusha walking" text="We offer Mount Meru climbing as aclimatisation for Kilimanjaro climb or like other kind of activities. "/>
+        <Card src={giraffs} width={400} height={600} alt="Pick of Kilimanjaro" title="Chemka Hot Springs" text="Before your departing from Tanzania we can show you beautifull place for rest and chili in Chemka Hot Springs." />
+        <Card src={giraff} width={400} height={600} alt="Pick of Mount Meru" title="Arusha walking and coffe farm" text="You can see how looks normal day in Arusha and how the coffee is made."/>
       </Cards>
     </section>
   )
