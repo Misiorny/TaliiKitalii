@@ -10,10 +10,16 @@ export const ds = Dancing_Script({
 })
 
 export const camila=localFont({
-  src:'./Camila.otf',
-  display:'swap',
-  weight:'700',
-  style:'bold'
+  src:[
+    {
+      path: './Camila.otf',  weight: '400',
+      style: 'normal',
+    },
+    {
+      path: './Camila.otf',  weight: '700',
+      style: 'bold',
+    },
+    ]
 })
 export const bodoni=localFont({
   src:[

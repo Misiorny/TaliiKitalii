@@ -10,7 +10,7 @@ export default function OffersPage () {
       <Header />
       <Main>
         <OffersCards />
-        <p> Here I will put offers of possible activities like climbing, safaris, school trips and others </p>
+
       </Main>
       <Footer/>
 
