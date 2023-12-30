@@ -1,6 +1,5 @@
 import { Logo, MainText, MainTitle, SubTitle } from '@/src/components/base'
 import { HeaderText, Navbar }          from '@/src/components/templates'
-import { bodoni, camila } from '@/src/app/fonts'
 import Link                            from 'next/link'
 
 
@@ -16,10 +15,10 @@ export const Header = () => {
       </Link>
       <HeaderText>
         <MainTitle
-          font={`${camila.className}`} styles="text-6xl text-bold" text="Talii Kitalii"
+            text="Talii Kitalii"
         />
         <SubTitle
-          font={`${bodoni.className}`} styles="text-4xl uppercase" text="African Safaris"
+            text="African Safaris"
         />
         <MainText text="To travel is to life"/>
       </HeaderText>
