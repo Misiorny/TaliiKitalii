@@ -28,20 +28,20 @@ export const bodoni=localFont({
       weight: '400', style: 'normal'
     },
     {
-      path: './BOD_B.ttf',
+      path: './BodoniMT.ttf',
       weight: '700', style: 'bold'
-    },
-    {
-      path: './BOD_BI.ttf',
-      weight: '700', style: 'bold-italic'
-    },
-    {
-      path: './BOD_I.ttf',
-      weight: '400', style: 'italic'
-    },
-    {
-      path: './BOD_R.ttf',
-      weight: '400', style: 'regular'
     }
+    // {
+    //   path: './BOD_BI.ttf',
+    //   weight: '700', style: 'bold-italic'
+    // },
+    // {
+    //   path: './BOD_I.ttf',
+    //   weight: '400', style: 'italic'
+    // },
+    // {
+    //   path: './BOD_R.ttf',
+    //   weight: '400', style: 'regular'
+    // }
     ]
 })
