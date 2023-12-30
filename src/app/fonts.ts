@@ -28,19 +28,19 @@ export const bodoni=localFont({
       weight: '400', style: 'normal'
     },
     {
-      path: './BOD_B.ttf',
+      path: './BOD_B.TTF',
       weight: '700', style: 'bold'
     },
     {
-      path: './BOD_BI.ttf',
+      path: './BOD_BI.TTF',
       weight: '700', style: 'bold-italic'
     },
     {
-      path: './BOD_I.ttf',
+      path: './BOD_I.TTF',
       weight: '400', style: 'italic'
     },
     {
-      path: './BOD_R.ttf',
+      path: './BOD_R.TTF',
       weight: '400', style: 'regular'
     }
     ]
