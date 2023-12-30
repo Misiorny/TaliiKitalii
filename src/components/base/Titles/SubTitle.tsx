@@ -1,13 +1,13 @@
+import { camila } from '@/src/app/fonts'
+
 interface SubTitleProps {
-  styles?: string,
   text: string,
-  font?: string
 }
 
-export const SubTitle = ({ font, styles, text }: SubTitleProps) => {
+export const SubTitle = ({  text }: SubTitleProps) => {
   return (
     <h2
-      className={`${font} ${styles}  font-bold py-4 px-2 text-center text-main-dark tracking-wider`}
+      className={`${camila.className}  font-bold py-4 px-2 text-center text-main-dark tracking-wider text-4xl uppercase`}
     >{text}</h2>
   )
 }

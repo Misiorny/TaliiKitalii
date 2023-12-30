@@ -1,8 +1,8 @@
-import { LogoInstagram } from '@/src/components/base/Logo/LogoInstagram'
-import { LogoFacebook }  from '@/src/components/base/Logo/LogoFacebook'
-import { LogoPhone }     from '@/src/components/base/Logo/LogoPhone'
-import { LogoMail }      from '@/src/components/base/Logo/LogoMail'
-import { LogoWhatsApp }  from '@/src/components/base/Logo/LogoWhatsApp'
+import { LogoInstagram } from '@/src/components/base/Logos/LogoInstagram'
+import { LogoFacebook }  from '@/src/components/base/Logos/LogoFacebook'
+import { LogoPhone }     from '@/src/components/base/Logos/LogoPhone'
+import { LogoMail }      from '@/src/components/base/Logos/LogoMail'
+import { LogoWhatsApp }  from '@/src/components/base/Logos/LogoWhatsApp'
 export const FooterLogosArea = () => {
   return (
     <div className="flex flex-row justify-evenly">

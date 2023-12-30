@@ -1,14 +1,29 @@
 import { Picture } from '@/src/components/base/Pictures/Picture'
-import { OtherTitle } from '@/src/components/base'
-import { Paragraph } from '@/src/components/base/Text/Paragraph'
-import kilipick from'@/src/assets/jpg/view/kilimanjaro.jpeg'
+import {  ButtonCta, OtherTitle } from '@/src/components/base'
+import {
+  Paragraph
+} from '@/src/components/base/Text/Paragraph'
 
-export const Card=()=>{
-  return(
+import { StaticImageData } from 'next/image'
+
+interface CardProps {
+  src: string | StaticImageData,
+  width: number,
+  height: number,
+  alt: string,
+  text: string,
+  title: string
+}
+
+export const Card = ({ src, width, height, alt, text, title }: CardProps) => {
+  return (
     <div>
-      <OtherTitle  text="Kilimanjaro climbing" />
-      <Picture src={kilipick} width={300} height={500} alt="Pick of Kilimanjaro"/>
-      <Paragraph text="We offer Kilimanjaro climbing by three routes. Lemosho, Machame and Marangu route. Each of them are different and your choice is depend on your possibilities and expectation."/>
+      <OtherTitle text={title}/>
+      <Picture src={src} width={width} height={height} alt={alt}/>
+      <Paragraph text={text}/>
+      <div className="landing_btnarea justify-center flex m-3 p-2">
+        <ButtonCta to="/climbing/" text="See more"/>
+      </div>
     </div>
   )
 }
