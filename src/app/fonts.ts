@@ -14,18 +14,18 @@ export const bodoni = localFont({
     {
       path: './BodoniMT.ttf', weight: '400', style: 'normal'
     }, {
-      path: './BOD_B.ttf', weight: '700', style: 'bold'
+      path: './BodoniBold.ttf', weight: '700', style: 'bold'
     },
     {
-      path: './BOD_BI.ttf',
+      path: './BodoniBoldItalic.ttf',
       weight: '700', style: 'bold-italic'
     },
     {
-      path: './BOD_I.ttf',
+      path: './BodoniItalic.ttf',
       weight: '400', style: 'italic'
     },
     {
-      path: './BOD_R.ttf',
+      path: './BodoniRegular.ttf',
       weight: '400', style: 'regular'
     }
   ]
