@@ -12,7 +12,7 @@ interface LogoPhoneProps{
 export const LogoPhone=({width,height,color,href, text}:LogoPhoneProps)=>{
   return(
     <Link href={href} rel="noopener noreferrer" target="_blank">
-      <section className="flex sm:flex-col p-4 sm:items-center">
+      <section className="flex p-4 sm:flex-col sm:items-center">
         <svg
           width={width} height={height} viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"

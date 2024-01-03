@@ -6,10 +6,10 @@ export const Header = () => {
 
   return (
     <header
-      className={`mx-auto flex flex-col w-full  max-w-screen-2xl justify-center sm:flex-col sm:justify-evenly rounded-3xl m-2 relative  z-20`}
+      className="mx-auto flex flex-col w-full  max-w-screen-2xl justify-center sm:flex-col sm:justify-evenly z-50 sticky top-0 bg-main-light opacity-95"
     >
       <Navbar/>
-      <section className=" flex flex-row justify-evenly">
+      <section className="flex flex-row justify-evenly">
         <Link href="/">
           <Logo/>
         </Link>

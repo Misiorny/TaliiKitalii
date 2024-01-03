@@ -7,7 +7,7 @@ import { OtherCards } from '@/src/components/templates/OffersCards/OtherCards'
 
 export const OffersCards=()=>{
   return(
-    <section className="landing max-w-screen-2xl ">
+    <section className="max-w-screen-2xl landing">
       <ClimbingCards/>
       <SafariCards/>
       <SchoolCards/>

@@ -8,7 +8,7 @@ export default function SafarisPage () {
       className=" landing flex min-h-screen flex-col bg-[url('/elephant.jpg')] bg-center bg-cover relative "
     >
       <div
-        className="absolute w-full h-full  bg-main-light opacity-60 z-10"
+        className="absolute z-10 h-full w-full opacity-60 bg-main-light"
       ></div>
       <Header/>
       <Main>

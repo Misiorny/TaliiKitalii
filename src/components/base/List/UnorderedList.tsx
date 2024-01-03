@@ -6,7 +6,7 @@ interface UnorderedListProps{
 }
 export const UnorderedList=({children, style}:UnorderedListProps)=>{
   return(
-    <ul className={`sm:flex sm:flex-row justify-evenly w-full ${style}`} >
+    <ul className={`sm:flex sm:flex-row justify-evenly w-full px-2 py-1 ${style}`} >
       {children}
     </ul>
   )

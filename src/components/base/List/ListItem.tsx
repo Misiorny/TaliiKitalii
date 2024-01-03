@@ -4,7 +4,7 @@ interface ListItemProps{
 
 export const ListItem=({text}:ListItemProps)=>{
   return(
-    <li className="py-2 px-1 hover:border-b-4 hover:border-b-complementary">
+    <li className="px-1 py-2 hover:border-b-complementary hover:border-b-4 max-w-fit">
       {text}
     </li>
   )

@@ -4,6 +4,6 @@ interface ParagraphProps{
 
 export const Paragraph=({text}:ParagraphProps)=>{
   return(
-    <p className="text-main-dark text-sm p-2 font-semibold tracking-wide ">{text}</p>
+    <p className="p-2 text-sm font-semibold tracking-wide text-main-dark">{text}</p>
   )
 }

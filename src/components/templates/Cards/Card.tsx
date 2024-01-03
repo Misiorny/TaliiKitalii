@@ -21,7 +21,7 @@ export const Card = ({ src, width, height, alt, text, title }: CardProps) => {
       <OtherTitle text={title}/>
       <Picture src={src} width={width} height={height} alt={alt}/>
       <Paragraph text={text}/>
-      <div className="landing_btnarea justify-center flex m-3 p-2">
+      <div className="m-3 flex justify-center p-2 landing_btnarea">
         <ButtonCta to="/climbing/" text="See more"/>
       </div>
     </div>

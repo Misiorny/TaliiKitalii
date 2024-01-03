@@ -3,7 +3,7 @@ import { Paragraph } from '@/src/components/base/Text/Paragraph'
 
 export const LandingCeo=()=>{
   return (
-    <section className=" landing_ceo grid grid-cols-2">
+    <section className="grid grid-cols-2 landing_ceo">
       <div className="w-full">
         <Picture width={200} height={340} src="/kevin.jpg" alt="CEO of Talii Kitalii"/>
       </div>

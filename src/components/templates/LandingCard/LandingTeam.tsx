@@ -3,7 +3,7 @@ import { Picture }   from '@/src/components/base/Pictures/Picture'
 
 export const LandingTeam=()=>{
   return (
-    <section className=" landing_team grid grid-cols-2">
+    <section className="grid grid-cols-2 landing_team">
       <div>
         <Paragraph
           text="Your safety and comfort are the most important to our team."

@@ -26,7 +26,9 @@ const config: Config = {
         dark: '#151516',
       },
       complementary: {
+        light: '#2cc064',
         DEFAULT: '#005D23',
+        dark: '#041e0b',
       },
       shadows: {
         dark: '#331C00',
