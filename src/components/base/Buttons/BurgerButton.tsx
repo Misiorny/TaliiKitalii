@@ -1,13 +1,14 @@
-import { ReactNode } from 'react'
+import { BurgerLogo } from '@/src/components/base'
 
-interface BurgerButtonProps{
-  children:ReactNode
+interface BurgerButtonProps  {
+  style:string
 }
+export const BurgerButton = ({style}:BurgerButtonProps) => {
+  return (
 
-export const BurgerButton=({children}:BurgerButtonProps)=>{
-  return(
-    <button>
-      {children}
-    </button>
+      <button className={`absolute top-2 right-4 sm:hidden ${style}}`} >
+        <BurgerLogo color="#005D23" clickedColor="#3B2207" width="48" height="48"/>
+      </button>
+
   )
 }
