@@ -2,7 +2,7 @@ import { ReactNode } from 'react'
 
 interface UnorderedListProps{
   children:ReactNode
-  style:string
+  style?:string
 }
 export const UnorderedList=({children, style}:UnorderedListProps)=>{
   return(

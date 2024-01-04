@@ -12,6 +12,7 @@ export const LandingCeo=()=>{
         <Paragraph
           text="Many thanks for contacting Talii Kitalii African safaris, your local adventure travel expert.  "
         />
+        <Paragraph text="It would be an absolute pleasure to organize your tour in Tanzania. "/>
       </div>
     </section>
   )
