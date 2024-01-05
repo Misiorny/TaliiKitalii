@@ -11,7 +11,6 @@ export const Navbar = () => {
   const handleClick = () => {
     setIsClicked(!isClicked)
   }
-
   return (
     <nav
       className="relative z-20 flex min-w-full flex-row justify-evenly font-bold uppercase"
