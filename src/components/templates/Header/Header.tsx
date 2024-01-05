@@ -6,7 +6,7 @@ export const Header = () => {
 
   return (
     <header
-      className="mx-auto flex flex-col w-full  max-w-screen-2xl justify-center sm:flex-col sm:justify-evenly z-50 sticky top-0 bg-main-light opacity-95"
+      className="mx-auto flex flex-col w-full  max-w-screen-2xl justify-center sm:flex-col sm:justify-evenly z-50 sticky top-0 bg-main-light opacity-85"
     >
       <Navbar/>
       <section className="flex flex-row justify-evenly">

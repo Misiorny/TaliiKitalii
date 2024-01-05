@@ -10,7 +10,6 @@ export default function OffersPage () {
       <Header />
       <Main>
         <OffersCards />
-
       </Main>
       <Footer/>
 
