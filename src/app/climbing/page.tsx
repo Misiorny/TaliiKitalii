@@ -1,6 +1,12 @@
 import {
   Footer, Header, Main
 } from '@/src/components/templates'
+import {
+  KilimanjaroRoutes
+} from '@/src/components/templates/ClimbingCards/KilimanjaroRoutes'
+import {
+  MountMeruRoutes
+} from '@/src/components/templates/ClimbingCards/MountMeruRoutes'
 
 export default function ClimbingPage () {
   return (
@@ -8,9 +14,8 @@ export default function ClimbingPage () {
       <div className="absolute z-10 h-full w-full opacity-60 bg-main-light"></div>
       <Header />
       <Main>
-        <p> Here I will put offers of possible Kilimanjaro climbing divided by routes or time,
-
-        </p>
+       <KilimanjaroRoutes/>
+        <MountMeruRoutes/>
       </Main>
       <Footer/>
     </div>

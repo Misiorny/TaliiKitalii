@@ -19,8 +19,10 @@ export const Card = ({ src, width, height, alt, text, title }: CardProps) => {
   return (
     <div>
       <OtherTitle text={title}/>
-      <Picture src={src} width={width} height={height} alt={alt}/>
-      <Paragraph text={text}/>
+      <div className="grid grid-cols-2 ">
+        <Picture src={src} width={width} height={height} alt={alt}/>
+        <Paragraph text={text}/>
+      </div>
       <div className="m-3 flex justify-center p-2 landing_btnarea">
         <ButtonCta to="/climbing/" text="See more"/>
       </div>

@@ -7,7 +7,7 @@ interface CardsProps{
 }
 export const Cards=({children,title}:CardsProps)=>{
   return(
-    <div className="">
+    <div className="flex flex-col">
       <SubTitle  text={title}/>
       {children}
     </div>
