@@ -14,7 +14,7 @@ export default function RootLayout ({
 }) {
   return (
     <html lang="en"  >
-      <body className={bodoni.className}>
+      <body className={`${bodoni.className} bg-neutral-light`}>
         {children}
       </body>
     </html>

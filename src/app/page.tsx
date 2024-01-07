@@ -1,13 +1,15 @@
-
+import { Header } from '@/src/components/templates/Header/Header'
+import { Footer } from '@/src/components/templates/Footer/Footer'
+import { Dashboard } from '@/src/components/templates/Dashboard/Dashboard'
 
 export default function Home () {
   return (
     <div
-      className=" landing flex min-h-screen flex-col bg-[url('/zebras.jpg')]  bg-cover relative "
+      className="flex min-h-screen flex-col max-w-screen-2xl mx-auto"
     >
-      <div
-        className="absolute z-10 h-full w-full opacity-60 bg-main-light"
-      ></div>
+      <Header/>
+      <Dashboard/>
+      <Footer/>
 
     </div>
 
