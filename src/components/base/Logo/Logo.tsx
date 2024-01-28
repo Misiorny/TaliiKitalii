@@ -1,4 +1,4 @@
-import logo from '../../assets/png/logo_talii.png'
+import logo  from '../../../assets/png/logo_talii.png'
 import Image from 'next/image'
 
 export const Logo = () => {
