@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { bodoni}       from '@/src/app/fonts'
+import {bodoni}       from '@/src/app/fonts'
 import React             from 'react'
 import './globals.css'
 

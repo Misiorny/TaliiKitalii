@@ -9,7 +9,7 @@ export const LandingTeam=()=>{
           text="Your safety and comfort are the most important to our team."
         />
       </div>
-      <Picture width={200} height={340} src="/team.jpeg" alt="Team of Talii Kitalii"/>
+      <Picture width={200} height={340} src="/team.jpeg" alt="Team of Talii Kitalii" imgTxt="Our team"/>
     </section>
   )
 }
