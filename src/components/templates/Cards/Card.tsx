@@ -19,7 +19,7 @@ export const Card = ({ src, width, height, alt, text, title }: CardProps) => {
   return (
     <div>
       <OtherTitle text={title}/>
-      <div className="grid grid-cols-2 ">
+      <div className="grid grid-cols-2">
         <Picture src={src} width={width} height={height} alt={alt}/>
         <Paragraph text={text}/>
       </div>

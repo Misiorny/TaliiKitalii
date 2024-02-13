@@ -37,6 +37,7 @@ const config: Config = {
       },
     },
     letterSpacing: {
+      tightestxl:'-.1',
       tightest: '-.075em',
       tighter: '-.05em',
       tight: '-.025em',

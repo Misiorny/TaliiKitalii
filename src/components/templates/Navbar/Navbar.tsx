@@ -13,7 +13,7 @@ export const Navbar = () => {
   }
   return (
     <nav
-      className="absolute top-0 sm:relative z-20 flex min-w-full flex-row justify-evenly font-bold uppercase"
+      className="absolute top-0 z-20 flex min-w-full flex-row justify-evenly font-bold uppercase sm:relative"
       onClick={handleClick}
     >
       <BurgerButton style={isClicked ? 'z-50 flex' : 'z-20'}/>

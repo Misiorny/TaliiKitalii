@@ -5,8 +5,8 @@ import { OffersCards } from '@/src/components/templates/OffersCards/OffersCards'
 
 export default function OffersPage () {
   return (
-    <div className=" landing flex min-h-screen flex-col bg-[url('/tanzania.jpg')] bg-cover relative ">
-      <div className="absolute z-10 h-full w-full opacity-60 bg-main-light"></div>
+    <div className=" landing flex min-h-screen flex-col relative ">
+
       <Header />
       <Main>
         <OffersCards />

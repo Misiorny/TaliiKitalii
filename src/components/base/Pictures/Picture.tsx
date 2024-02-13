@@ -10,14 +10,14 @@ interface PictureProps {
 
 export const Picture = ({ src, alt, width, height,imgTxt }: PictureProps) => {
   return (
-    <div className="flex flex-col justify-center p-2 rounded-2xl ">
+    <div className="flex flex-col justify-center rounded-2xl p-2 ">
       <Image
         src={src} alt={alt} width={width} height={height}
-        className="h-full w-full rounded-2xl " style={{
+        className="h-full w-full rounded-2xl" style={{
         width: 'auto', height: 'auto'
       }}
       />
-      <p className="text-main-dark text-center p-1 text-xs ">{imgTxt}</p>
+      <p className="p-1 text-center text-xs text-main-dark sm:text-xl">{imgTxt}</p>
     </div>
   )
 }

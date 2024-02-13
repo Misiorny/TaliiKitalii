@@ -9,12 +9,12 @@ import {
 
 export const LandingCard = () => {
   return (
-    <section className="max-w-screen-2xl landing ">
+    <section className="max-w-screen-2xl landing">
       <LandingCeo/>
       <LandingTeam/>
-      <LandingParagraph
-        text="Our team is dedicated to providing a uniquely memorable experience that is flexible and tailored to your specific preferences."
-      />
+      {/*<LandingParagraph*/}
+      {/*  text="Our team is dedicated to providing a uniquely memorable experience that is flexible and tailored to your specific preferences."*/}
+      {/*/>*/}
       <LandingBtnArea/>
     </section>
   )
