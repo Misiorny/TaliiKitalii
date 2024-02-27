@@ -35,6 +35,12 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes:{
+        carousel:{
+          '0%, 100%':{transform:'rotate(-90deg)' },
+          '50%':{transform:'rotate(90deg)' },
+        }
+      }
     },
     colors: {
       main: {
