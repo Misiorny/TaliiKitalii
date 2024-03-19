@@ -13,7 +13,7 @@ const config: Config = {
       'sm':'480px',
       'sl':'576px',
       'xsl':'680px',
-      'md':'780px',
+      'md':'786px',
       'ml':'960px',
       'xml':'1024px',
       'lg':'1200px',
@@ -39,7 +39,7 @@ const config: Config = {
         carousel:{
           '0%, 100%':{transform:'rotate(-90deg)' },
           '50%':{transform:'rotate(90deg)' },
-        }
+        } //as an example - not used yet
       }
     },
     colors: {
@@ -65,10 +65,10 @@ const config: Config = {
       },
     },
     letterSpacing: {
-      tightestxl:'-.1',
-      tightest: '-.075em',
-      tighter: '-.05em',
-      tight: '-.025em',
+      thinnestxl:'-.1em',
+      thinnest: '-.075em',
+      thinner: '-.05em',
+      thin: '-.025em',
       normal: '0',
       wide: '.025em',
       wider: '.05em',

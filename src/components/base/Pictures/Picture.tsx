@@ -8,7 +8,7 @@ interface PictureProps {
   imgTxt:string
 }
 
-export const Picture = ({ src, alt, width, height,imgTxt }: PictureProps) => {
+export const Picture = ({ src, alt, width, height, imgTxt }: PictureProps) => {
   return (
     <div className="flex flex-col justify-center rounded-2xl p-2 ">
       <Image
@@ -17,7 +17,7 @@ export const Picture = ({ src, alt, width, height,imgTxt }: PictureProps) => {
         width: 'auto', height: 'auto'
       }}
       />
-      <p className="p-1 text-center text-xs text-main-dark sm:text-xl">{imgTxt}</p>
+      <p className="p-1 text-center text-sm text-main-dark md:text-xl">{imgTxt}</p>
     </div>
   )
 }

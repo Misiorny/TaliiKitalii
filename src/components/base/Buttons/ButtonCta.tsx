@@ -8,7 +8,7 @@ interface ButtonCtaProps {
 export const ButtonCta = ({ to,text }: ButtonCtaProps) => {
   return (
     <Link href={to}>
-      <button className="rounded-2xl px-4 py-2 text-2xl font-bold tracking-wider bg-complementary text-main-light">
+      <button className="rounded-2xl px-4 py-2 text-base uppercase shadow-complementary-dark shadow-xl font-bold tracking-wider bg-complementary text-main-light">
         {text}
       </button>
     </Link>

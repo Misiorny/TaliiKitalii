@@ -5,7 +5,7 @@ import { LogoMail }      from '@/src/components/base/Logos/LogoMail'
 import { LogoWhatsApp }  from '@/src/components/base/Logos/LogoWhatsApp'
 export const FooterLogosArea = () => {
   return (
-    <div className="flex flex-row justify-evenly">
+    <div className="flex flex-row justify-evenly ">
       <LogoInstagram  href="https://www.instagram.com/talii_kitalii_african_safaris/" text="Instagram" width={24} height={24} color="#000000"/>
       <LogoFacebook href="https://www.facebook.com/calvin.lema.31" text="Facebook" width={24} height={24} color="#000000"/>
       <LogoPhone text="Call me"  href="tel:+255688246560" width={24} height={24} color="#000"/>
