@@ -3,15 +3,15 @@ import { Paragraph } from '@/src/components/base/Text/Paragraph'
 
 export const LandingCeo=()=>{
   return (
-    <section className="landing_ceo m-2 shadow-xl shadow-complementary-dark ">
+    <section className="m-2 rounded-xl shadow-xl landing_ceo shadow-complementary-dark bg-main-light">
       <div className="grid w-full grid-cols-2">
         <Picture width={200} height={340} src="/kevin.jpg" alt="CEO of Talii Kitalii" imgTxt="Talii Kitalii CEO"/>
-        <div className=" flex flex-col ">
-          <Paragraph text="Hi, I am Calvin."/>
+        <div className="flex flex-col justify-center">
+
           <Paragraph
-            text="Many thanks for contacting Talii Kitalii African safaris, your local adventure travel expert."
+            text="Hi! My name is Calvin. Many thanks for contacting Talii Kitalii African safaris, your local adventure travel expert."
           />
-          <div className="md:grid hidden">
+          <div className="hidden md:grid">
             <Paragraph
               text="It would be an absolute pleasure to organize your tour in Tanzania. "
             />

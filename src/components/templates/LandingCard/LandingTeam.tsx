@@ -3,7 +3,7 @@ import { Picture }   from '@/src/components/base/Pictures/Picture'
 
 export const LandingTeam = () => {
   return (
-    <section className=" landing_team m-2 shadow-xl mt-6 shadow-complementary-dark">
+    <section className="m-2 mt-6 rounded-xl shadow-xl landing_team shadow-complementary-dark bg-main-light">
       <div className="grid grid-cols-2">
       <div className="flex flex-col justify-center">
         <Paragraph
@@ -20,7 +20,7 @@ export const LandingTeam = () => {
         imgTxt="Talii Kitalii Team"
       />
       </div>
-      <div className="md:hidden flex ">
+      <div className="flex md:hidden">
         <Paragraph
           text="Our team is dedicated to providing a uniquely memorable experience that is flexible and tailored to your specific preferences."
         />

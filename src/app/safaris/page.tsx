@@ -4,7 +4,7 @@ import {
 
 export default function SafarisPage () {
   return (
-    <div className=" flex min-h-screen flex-col relative " >
+    <div className="relative flex min-h-screen flex-col" >
       <Header/>
       <Main>
         <p> Here I will put offers of possible safaris activities depending on

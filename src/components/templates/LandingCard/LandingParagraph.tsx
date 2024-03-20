@@ -4,7 +4,7 @@ interface LandingParagraphProps{
 }
 export const LandingParagraph=({text}:LandingParagraphProps)=>{
   return (
-    <div className="landing_paragraph ">
+    <div className="landing_paragraph">
       <Paragraph
         text={text}
       />

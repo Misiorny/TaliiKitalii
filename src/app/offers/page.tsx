@@ -5,7 +5,7 @@ import { OffersCards } from '@/src/components/templates/OffersCards/OffersCards'
 
 export default function OffersPage () {
   return (
-    <div className=" landing flex min-h-screen flex-col relative ">
+    <div className="relative flex min-h-screen flex-col landing">
 
       <Header />
       <Main>

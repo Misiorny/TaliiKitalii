@@ -5,7 +5,7 @@ import {
 export default function LandingPage () {
   return (
     <div
-      className="flex min-h-screen flex-col relative "
+      className="relative flex min-h-screen flex-col"
     >
       {/*<div*/}
       {/*  className="absolute z-10 h-full w-full opacity-60 bg-main-light"*/}

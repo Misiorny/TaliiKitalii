@@ -7,7 +7,7 @@ interface UnorderedListProps{
 }
 export const UnorderedList=({children, style, onClick}:UnorderedListProps)=>{
   return(
-    <ul className={`sm:flex sm:flex-row justify-evenly w-full px-2 py-1 bg-main-light  ${style}`} onClick={onClick}>
+    <ul className={`sl:flex sl:flex-row justify-evenly w-full px-2 py-1 bg-main-light rounded-xl  ${style}`} onClick={onClick}>
       {children}
     </ul>
   )

@@ -4,7 +4,7 @@ import {
 
 export default function SchoolsPage () {
   return (
-    <div className=" landing flex min-h-screen flex-col relative ">
+    <div className="relative flex min-h-screen flex-col landing">
 
       <Header/>
       <Main>

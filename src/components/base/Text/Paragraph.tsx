@@ -1,9 +1,10 @@
 interface ParagraphProps{
   text:string
+  textColor?:string
 }
 
-export const Paragraph=({text}:ParagraphProps)=>{
+export const Paragraph=({text, textColor}:ParagraphProps)=>{
   return(
-    <p className="p-2 text-base font-bold tracking-wide text-main-dark sm:text-xl sm:py-3">{text}</p>
+    <p className={`p-2 text-base font-bold tracking-wide text-${textColor} sm:py-3 sm:text-xl`}>{text}</p>
   )
 }

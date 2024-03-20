@@ -4,7 +4,7 @@ import {
 
 export default function OtherPage () {
   return (
-    <div className="flex min-h-screen flex-col relative ">
+    <div className="relative flex min-h-screen flex-col">
 
       <Header />
       <Main>

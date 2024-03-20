@@ -5,7 +5,7 @@ import {
 export default function FaqPage () {
   return (
     <div
-      className="flex min-h-screen flex-col relative "
+      className="relative flex min-h-screen flex-col"
     >
 
       <Header/>
