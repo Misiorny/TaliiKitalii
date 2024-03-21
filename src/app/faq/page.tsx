@@ -1,6 +1,4 @@
-import {
-  Footer, Header, Main
-} from '@/src/components/templates'
+import {Main} from '@/src/components/templates'
 
 export default function FaqPage () {
   return (
@@ -8,11 +6,11 @@ export default function FaqPage () {
       className="relative flex min-h-screen flex-col"
     >
 
-      <Header/>
+
       <Main>
         <p> Here I will put faq </p>
       </Main>
-      <Footer/>
+
     </div>
 
   )

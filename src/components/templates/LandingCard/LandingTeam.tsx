@@ -5,7 +5,7 @@ export const LandingTeam = () => {
   return (
     <section className="m-2 mt-6 rounded-xl shadow-xl landing_team shadow-complementary-dark bg-main-light">
       <div className="grid grid-cols-2">
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col ">
         <Paragraph
           text="Your safety and comfort are the most important to our team."
         />

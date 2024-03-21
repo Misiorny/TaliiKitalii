@@ -1,13 +1,16 @@
-import { Logo, MainText, MainTitle, SubTitle } from '@/src/components/base'
-import { HeaderText, Navbar }                  from '@/src/components/templates'
-import Link                                    from 'next/link'
+import { Logo } from '@/src/components/base'
+import { Navbar } from '@/src/components/templates'
+import Link from 'next/link'
 
 export const Header = () => {
 
   return (
     <header
-      className="top-0 z-50 mx-auto flex w-full max-w-screen-2xl flex-col justify-center sm:flex-col sm:justify-evenly bg-neutral-light " >
-      <section className="flex flex-col m-2 rounded-xl shadow-xl shadow-complementary-dark bg-main-light ">
+      className="top-0 z-50 mx-auto flex w-full max-w-screen-2xl flex-col justify-center sm:flex-col sm:justify-evenly  "
+    >
+      <section
+        className="flex flex-col m-2 rounded-xl shadow-xl shadow-complementary-dark bg-main-light "
+      >
         <Link href="/">
           <Logo/>
         </Link>
@@ -20,7 +23,7 @@ export const Header = () => {
         {/*  />*/}
         {/*  <MainText text="To travel is to life"/>*/}
         {/*</HeaderText>*/}
-      <Navbar/>
+        <Navbar/>
       </section>
     </header>
   )

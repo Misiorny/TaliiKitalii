@@ -1,5 +1,13 @@
-import { FooterLogosArea } from '@/src/components/templates/Footer/FooterLogosArea'
+import {
+  FooterLogosArea
+}                    from '@/src/components/templates/Footer/FooterLogosArea'
 import { Paragraph } from '@/src/components/base/Text/Paragraph'
+import {
+  FooterTextArea
+}                    from '@/src/components/templates/Footer/FooterTextArea'
+import {
+  FooterInfoArea
+}                    from '@/src/components/templates/Footer/FooterInfoArea'
 
 interface FooterProps {
   styles?: string,
@@ -8,10 +16,15 @@ interface FooterProps {
 export const Footer = ({ styles }: FooterProps) => {
   return (
     <footer
-      className={`max-w-screen-2xl mx-auto w-full ${styles} h-full flex flex-col text-center bg-neutral-dark `}
+      className={`max-w-screen-2xl mx-auto  w-full ${styles} h-full flex flex-col `}
     >
-      <Paragraph text="Contact us" textColor="main-light"/>
-      <FooterLogosArea color="#FFF4E6"/>
+      <section className="m-2 rounded-xl  shadow-xl shadow-main-dark  ">
+        <FooterTextArea>
+          <Paragraph text="Contact us" textColor="main-light"/>
+        </FooterTextArea>
+        <FooterLogosArea color="#331C00"/>
+        <FooterInfoArea/>
+      </section>
     </footer>
   )
 }
