@@ -9,7 +9,7 @@ interface FooterLogosAreaProps{
 }
 export const FooterLogosArea = ({color}:FooterLogosAreaProps) => {
   return (
-    <div className="flex flex-row justify-evenly text-main-light">
+    <div className="flex flex-row justify-center text-main-dark uppercase">
       <LogoInstagram  href="https://www.instagram.com/talii_kitalii_african_safaris/" text="Instagram" width={24} height={24} color={color}/>
       <LogoFacebook href="https://www.facebook.com/calvin.lema.31" text="Facebook" width={24} height={24} color={color}/>
       <LogoPhone text="Call me"  href="tel:+255688246560" width={24} height={24} color={color}/>

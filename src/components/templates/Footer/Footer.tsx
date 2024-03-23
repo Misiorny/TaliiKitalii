@@ -18,9 +18,9 @@ export const Footer = ({ styles }: FooterProps) => {
     <footer
       className={`max-w-screen-2xl mx-auto  w-full ${styles} h-full flex flex-col `}
     >
-      <section className="m-2 rounded-xl  shadow-xl shadow-main-dark  ">
+      <section className="m-2 rounded-xl shadow-xl shadow-main-dark  ">
         <FooterTextArea>
-          <Paragraph text="Contact us" textColor="main-light"/>
+          <Paragraph text="Contact us" textColor="main-dark"/>
         </FooterTextArea>
         <FooterLogosArea color="#331C00"/>
         <FooterInfoArea/>
