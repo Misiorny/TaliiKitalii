@@ -13,12 +13,12 @@ export const Navbar = () => {
   }
   return (
     <nav
-      className="absolute top-0 right-0 z-20 flex min-w-full flex-row justify-evenly font-bold uppercase sl:relative rounded-xl "
+      className="absolute top-0 right-0 z-30 flex min-w-full flex-row justify-evenly font-bold uppercase sl:sticky rounded-xl  "
       onClick={handleClick}
     >
       <BurgerButton style={isClicked ? 'z-50 flex' : 'z-20'}/>
       <UnorderedList
-        style={isClicked ? 'flex flex-col absolute top-2 left-2 mx-2 z-50 opacity-90 ' : 'hidden'}
+        style={isClicked ? 'flex flex-col w-3/4 absolute top-2 left-2  w-fit z-50 opacity-90  ' : 'hidden'}
       >
         <Link href="/climbing"><ListItem text="climbing"/></Link>
         <Link href="/safaris"><ListItem text="safaris"/></Link>

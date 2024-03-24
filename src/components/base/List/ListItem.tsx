@@ -4,7 +4,7 @@ interface ListItemProps{
 
 export const ListItem=({text}:ListItemProps)=>{
   return(
-    <li className="max-w-fit rounded-lg p-2 hover:text-complementary-light hover:bg-main-dark">
+    <li className="min-w-1/2 rounded-lg p-2 hover:text-complementary-light hover:bg-main-dark border-2 border-neutral-dark">
       {text}
     </li>
   )

@@ -1,6 +1,6 @@
 interface HeroShadowProps  {
   bgColor:string,
-  opacityValue:number
+  opacityValue:string
 }
 export const HeroShadow = ({bgColor, opacityValue}:HeroShadowProps) => {
   return (

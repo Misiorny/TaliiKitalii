@@ -10,15 +10,16 @@ const config: Config = {
     screens:{
       '2xs':'340px',
       'xs':'400px',
-      'sm':'480px',
+      'sm':'480px', //bootstrap//
       'sl':'576px',
       'xsl':'680px',
-      'md':'786px',
-      'ml':'960px',
+      'md':'768px', //bootstrap//
+      'ml':'992px', //bootstrap//
       'xml':'1024px',
-      'lg':'1200px',
+      'lg':'1200px', //bootstrap//
       'xl':'1440px',
-      '2xl':'1560px'
+      '2xl':'1560px',
+      '3xl':'1920px', //bootstrap//
     },
     fontSize:{
       'sm':['0.8rem','1.2rem'],
